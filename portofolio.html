@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio sederhana</title>
+
+</head>
+
+<style>
+    .new {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    #article1 {
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    #article2 {
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #article3 {
+        position: relative;
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    h1 {
+        background-image: url(tokyo-at-night.jpg);
+        height: 100%;
+        background-size: cover;
+        /* opacity: 0.7; */
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        position: top;
+        line-height: 100px;
+        color: whitesmoke;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    p {
+        letter-spacing: 1.5px;
+    }
+    
+    body {
+        background-color: lightgrey;
+        opacity: 0.95;
+        margin: 0px;
+    }
+    
+    p {
+        text-align: center
+    }
+    
+    li {
+        text-align: left;
+    }
+    
+    .footer {
+        margin-top: 30px;
+        height: 90px;
+        width: 100%;
+        background-image: url(tokyo-at-night.jpg);
+        /*opacity: 0.7;*/
+        color: rgb(7, 7, 7);
+        text-align: center;
+        position: relative;
+    }
+    
+    .footer p {
+        line-height: 100px;
+    }
+    
+    ;
+</style>
+
+
+<body>
+    <h1 style="">Portfolio</h1>
+
+    <br>
+    <br>
+    <h2 style="text-align: center;">Biografi</h2>
+    <p>Perkenalkan nama saya Rezky Agung Kurniawan saya adalah mahasiswa dari Universitas Kristen Satya Wacana. Saya biasanya menghabiskan waktu saya dengan coding dan bermain game, karena moto saya adalah <i>work hard play hard.</i> Saya memiliki kepribadian
+        bersahabat dan mudah membaur, namun tetap untuk menilai karakter seseorang tetap dari siapa yang melihat. Saya hanya melihat karakter saya sendiri dari kacamata saya. untuk kepribadian saya silahkan anda yang menentukan.
+    </p>
+    <hr>
+    <div class="new">
+        <article id="article1">
+            <h2>My Skill</h2>
+            <ul>
+                <li>C / C++</li>
+                <li>PHP</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </article>
+        <article id="article2">
+            <th>
+                <table border="1px" cellspacing="0" cellpadding="3">
+                    <tr>
+                        <th>Social Media</th>
+                        <th>Repository</th>
+                        <th>Phone Number</th>
+                    </tr>
+                    <tr>
+                        <td><i><a href="https://www.facebook.com/profile.php?id=100005319496715"><span style="color: rgb(38, 12, 99);">facebook</span></a></td>
+                        <td><u><a href="https://github.com/Warfail"><span style="color: rgb(113, 10, 248);">github</span></a></u></td>
+                        <td><b>0822-5967-0594</b></td>
+        
+                    </tr>
+                    <tr>
+                        <td><i><a href="https://www.instagram.com/vasticz/"><span style="color: rgb(230, 38, 214);">instagram</span></a></i></td>
+                        <td>-</td>
+                        <td>-</td>
+
+                    </tr>
+                    <tr>
+                        <td><i><a href="https://mail.google.com/mail/rezkytaewa2@gmail.com"><span style="color: rgb(151, 25, 25);">Email</span></a></i></td>
+                        <td>-</td>
+                        <td>-</td>
+
+                    </tr>
+                </table>
+            </th>
+        </article>
+
+    </div>
+
+    <hr>
+
+    <div class="new">
+        <article id="article3">
+            <h3>Ingin Bertanya-tanya? silahkan isi form dibawah</h3>
+            <form>
+                <label for="name">Nama lengkap:</label>
+                <input type="text"><br><br>
+                <label for="name">Tanya - tanya :</label>
+                <input type="text"><br><br>
+                <button type="submit">Kirim</button>
+            </form>
+        </article>
+    </div>
+
+</body>
+
+<div class="footer">
+    <p>&copy; 2021 Eduwork, Inc. All rights reserved.</p>
+</div>
+
+</html>
