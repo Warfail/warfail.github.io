@@ -5,164 +5,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio">Bio Singkat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tanya">Pertanyaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak dan Media Sosial</a>
+                    </li>
+
+                </ul>
+                <span class="navbar-text">
+                    Rezky A.K
+            </span>
+            </div>
+        </div>
+    </nav>
+
+
     <title>Portfolio sederhana</title>
 
 </head>
 
-<style>
-    .new {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
-    
-    #article1 {
-        width: 300px;
-        padding: 20px;
-        text-align: center;
-        margin-top: 0px;
-    }
-    
-    #article2 {
-        width: 300px;
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    #article3 {
-        position: relative;
-        width: 300px;
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    h1 {
-        background-image: url(tokyo-at-night.jpg);
-        height: 100%;
-        background-size: cover;
-        /* opacity: 0.7; */
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-bottom: 10px;
-        position: top;
-        line-height: 100px;
-        color: whitesmoke;
-    }
-    
-    h3 {
-        text-align: center;
-    }
-    
-    p {
-        letter-spacing: 1.5px;
-    }
-    
-    body {
-        background-color: lightgrey;
-        opacity: 0.95;
-        margin: 0px;
-    }
-    
-    p {
-        text-align: center
-    }
-    
-    li {
-        text-align: left;
-    }
-    
-    .footer {
-        margin-top: 100px;
-        height: 100px;
-        width: 100%;
-        background-image: url(tokyo-at-night.jpg);
-        /*opacity: 0.7;*/
-        color: rgb(7, 7, 7);
-        text-align: center;
-        position: relative;
-    }
-    
-    .footer p {
-        line-height: 100px;
-    }
-    
-    ;
-</style>
+
 
 
 <body>
-    <h1 style="">Portfolio</h1>
+
+
+
+    <h1>Introduction</h1>
 
     <br>
     <br>
-    <h2 style="text-align: center;">Biografi</h2>
-    <p>Perkenalkan nama saya Rezky Agung Kurniawan saya adalah mahasiswa dari Universitas Kristen Satya Wacana. Saya biasanya menghabiskan waktu saya dengan coding dan bermain game, karena moto saya adalah <i>work hard play hard.</i> Saya memiliki kepribadian
-        bersahabat dan mudah membaur, namun tetap untuk menilai karakter seseorang tetap dari siapa yang melihat. Saya hanya melihat karakter saya sendiri dari kacamata saya. untuk kepribadian saya silahkan anda yang menentukan.
-    </p>
+    <section id="bio">
+        <h2 class="paragraf1" style="text-align: center;"></h2>
+        <p>Perkenalkan nama saya Rezky Agung Kurniawan saya adalah mahasiswa dari Universitas Kristen Satya Wacana. Saya biasanya menghabiskan waktu saya dengan coding dan bermain game, karena moto saya adalah <i>work hard play hard.</i> Saya memiliki kepribadian
+            bersahabat dan mudah membaur, namun tetap untuk menilai karakter seseorang tetap dari siapa yang melihat. Saya hanya melihat karakter saya sendiri dari kacamata saya. untuk kepribadian saya silahkan anda yang menentukan.
+
+        </p>
+    </section>
     <hr>
-    <div class="new">
-        <article id="article1">
-            <h2>My Skill</h2>
-            <ul>
-                <li>C / C++</li>
-                <li>PHP</li>
-                <li>Responsive Web Design</li>
-            </ul>
-        </article>
-        <article id="article2">
-            <th>
-                <table border="1px" cellspacing="0" cellpadding="3">
-                    <tr>
-                        <th>Social Media</th>
-                        <th>Repository</th>
-                        <th>Phone Number</th>
-                    </tr>
-                    <tr>
-                        <td><i><a href="https://www.facebook.com/profile.php?id=100005319496715"><span style="color: rgb(38, 12, 99);">facebook</span></a></td>
-                        <td><u><a href="https://github.com/Warfail"><span style="color: rgb(113, 10, 248);">github</span></a></u></td>
-                        <td><b>0822-5967-0594</b></td>
-        
-                    </tr>
-                    <tr>
-                        <td><i><a href="https://www.instagram.com/vasticz/"><span style="color: rgb(230, 38, 214);">instagram</span></a></i></td>
-                        <td>-</td>
-                        <td>-</td>
+    <section id="skill">
 
-                    </tr>
-                    <tr>
-                        <td><i><a href="https://mail.google.com/mail/rezkytaewa2@gmail.com"><span style="color: rgb(151, 25, 25);">Email</span></a></i></td>
-                        <td>-</td>
-                        <td>-</td>
 
-                    </tr>
-                </table>
-            </th>
-        </article>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">PHP</h5>
+                        <img src="PHP.png" class="card-img-top" alt="...">
+                        <p class="card-text">Projek Mengembangkan Web dengan menggunakan PHP murni</p>
+                        <a href="https://github.com/Warfail/PHP_CRUD" class="btn btn-primary">Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">C / C++</h5>
+                        <img src="C.png" class="card-img-top" alt="...">
+                        <p class="card-text">Mengembangkan Sistem CRUD dengan C dan mendesain 3D dengan C++</p>
+                        <a href="https://github.com/Warfail/CRUD-C.git" class="btn btn-primary">Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style=>Responsive Web</h5>
+                        <img src="Responsive.png" class="card-img-top" alt="...">
+                        <p class="card-text">Mengembangkan Web dengan Sistem Bursa Kerja Sebagai Projek</p>
+                        <a href="https://github.com/Warfail/PHP_CRUD" class="btn btn-primary">Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     </div>
 
     <hr>
 
-    <div class="new">
-        <article id="article3">
-            <h3>Ingin Bertanya-tanya? silahkan isi form dibawah</h3>
-            <form>
-                <label for="name">Nama lengkap:</label>
-                <input type="text"><br><br>
-                <label for="name">Tanya - tanya :</label>
-                <input type="text"><br><br>
-                <button type="submit">Kirim</button>
-            </form>
-        </article>
-    </div>
+    <section id="tanya">
+        <div class="container-fluid">
+
+            <div class="new">
+                <article id="article3">
+                    <h3>Ingin Bertanya-tanya? silahkan isi form dibawah</h3>
+                </article>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Alamat Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+            </div>
+            <div class="mb-3">
+
+                <label for="formGroupExampleInput2" class="form-label">Tanya-tanya</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="d-grid gap-2">
+                <button href="rezkytaewa2@gmail.com" class="btn btn-primary" type="button">Kirim</button>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="kontak">
+        <footer class=" w3-center w3-opacity w3-xlarge" style="margin:24px">
+            <a href="https://www.facebook.com/profile.php?id=100005319496715"> <i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/vasticz/" style="color: pink;"><i class="fa fa-instagram "></i> </a>
+            <i class="fa fa-whatsapp" style="color: greenyellow;"></i>
+            <a href="https://mail.google.com/mail/rezkytaewa2@gmail.com" style="color: red;"><i class="fa fa-google"></i></a>
+        </footer>
+
+    </section>
 
 </body>
 
+
+
+
 <div class="footer">
-    <p>&copy; 2021 Eduwork, Inc. All rights reserved.</p>
+    <p style="color: whitesmoke;">&copy; 2021 Eduwork, Inc. All rights reserved.</p>
 </div>
 
 </html>

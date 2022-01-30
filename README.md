@@ -1,2 +1,1 @@
-# warfail.github.io
-a simple website
+# Rezky.github.io
